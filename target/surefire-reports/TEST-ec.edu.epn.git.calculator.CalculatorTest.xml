@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.edu.epn.git.calculator.CalculatorTest" time="0.105" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.edu.epn.git.calculator.CalculatorTest" time="0.11" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="EC"/>
     <property name="sun.boot.library.path" value="C:\Users\sebas\.jdks\openjdk-20.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\sebas\AppData\Local\Temp\surefire13616129237829170731\surefirebooter-20241023182759877_3.jar C:\Users\sebas\AppData\Local\Temp\surefire13616129237829170731 2024-10-23T18-27-59_714-jvmRun1 surefire-20241023182759877_1tmp surefire_0-20241023182759877_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sebas\AppData\Local\Temp\surefire889121233617534754\surefirebooter-20241023214347906_3.jar C:\Users\sebas\AppData\Local\Temp\surefire889121233617534754 2024-10-23T21-43-47_750-jvmRun1 surefire-20241023214347906_1tmp surefire_0-20241023214347906_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sebas\OneDrive\Escritorio\sample-calculator-git\target\test-classes;C:\Users\sebas\OneDrive\Escritorio\sample-calculator-git\target\classes;C:\Users\sebas\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sebas\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sebas\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar;C:\Users\sebas\.m2\repository\net\bytebuddy\byte-buddy\1.9.3\byte-buddy-1.9.3.jar;C:\Users\sebas\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.3\byte-buddy-agent-1.9.3.jar;C:\Users\sebas\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sebas\AppData\Local\Temp\surefire13616129237829170731\surefirebooter-20241023182759877_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sebas\AppData\Local\Temp\surefire889121233617534754\surefirebooter-20241023214347906_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="given_two_integers_when_add_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.0">
+  <testcase name="given_two_integers_when_add_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.001">
     <system-out><![CDATA[setUpClass()
 setUp()
 Test 1
@@ -72,13 +72,13 @@ Test 3
 tearDown()
 ]]></system-out>
   </testcase>
-  <testcase name="given_two_integers_when_subtraction_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.0">
+  <testcase name="given_two_integers_when_subtraction_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.001">
     <system-out><![CDATA[setUp()
 Test 2
 tearDown()
 ]]></system-out>
   </testcase>
-  <testcase name="given_a_time_when_timeout_then_exception" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.099">
+  <testcase name="given_a_time_when_timeout_then_exception" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.102">
     <system-out><![CDATA[setUp()
 Test 4
 tearDown()
